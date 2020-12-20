@@ -1,0 +1,19 @@
+main: real.peha.fun.MobsPlugin
+name: MobsPlugin
+version: 0.1
+author: RealPeha
+api-version: 1.12
+
+commands:
+  rp:
+    usage: /<command> [reload]
+
+permissions:
+  mobsplugin.*:
+    description: Дает доступ ко всем командам MobsPlugin
+    default: false
+    children:
+      mobsplugin.reload: true
+  mobsplugin.reload:
+    description: Дает доступ к команде /rp reload
+    default: op
