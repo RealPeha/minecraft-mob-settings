@@ -2,3 +2,47 @@ no-permission-message: У вас нет прав на использование
 
 zombie:
   damage: 10
+  name:
+    value: Loh
+    visible: false
+  xp:
+    value: 100
+  hand:
+    item: BOW
+    effects:
+    - type: ARROW_FIRE
+      level: 1
+  helmet:
+    item: LEATHER_HELMET
+    chance: 50
+  boots:
+    items:
+    - LEATHER_BOOTS
+    - DIAMOND_BOOTS
+    chance: 25
+  clearDefaultDrop: true
+  drop:
+  - item: LEATHER_BOOTS
+    amount: 2
+    chance: 50
+  effects:
+  - type: SPEED
+    duration: 100000
+    strength: 10
+
+
+zombie_pigman:
+  name:
+    values:
+    - Loh 1
+    - Loh 2
+    - Loh 3
+    visible: true
+  hp:
+    value: 10
+    chance: 50
+  xp:
+    range:
+      from: 1
+      to: 100
+  
